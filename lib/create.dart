@@ -19,6 +19,7 @@ class _createState extends State<create> {
     print("*****************************");
     super.initState();
   }
+
   some() async{
     final FirebaseUser userw = await FirebaseAuth.instance.currentUser();
     final String uide = userw.uid.toString();
