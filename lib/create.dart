@@ -50,6 +50,7 @@ class _createState extends State<create> {
         ),
       ),
       backgroundColor: Color(0xff121212),
+
       appBar: AppBar(
         title: Text("Notes App"),
         centerTitle: true,
