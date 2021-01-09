@@ -9,6 +9,7 @@ class notes extends StatefulWidget {
   _notesState createState() => _notesState();
 }
 
+
 class _notesState extends State<notes> {
   var user;
   @override
