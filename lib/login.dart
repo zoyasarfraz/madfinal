@@ -30,7 +30,7 @@ class _loginState extends State<login> {
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
       statusBarBrightness: Brightness.light,
         statusBarColor: Colors.purple[700],
-      systemNavigationBarColor: Colors.blue[800]
+      systemNavigationBarColor: Colors.yellowAccent[800]
     ));
     return SafeArea(
       child: Scaffold(
