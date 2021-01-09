@@ -67,6 +67,7 @@ class _signupState extends State<signup> {
       email: uname.text,
       password: pwd.text,
     ))
+
         .user;
     print(user.uid);
     Firestore.instance.collection('users').document(user.uid).setData({});
